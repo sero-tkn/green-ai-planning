@@ -1,0 +1,35 @@
+(define (domain gripper-typed)
+   (:requirements :typing)
+   (:types room ball gripper)
+   (:constants left right - gripper)
+   (:predicates (DUMMY-FLAG)
+        (at-robby ?r - room)
+		(at ?b - ball ?r - room)
+		(free ?g - gripper)
+		(carry ?o - ball ?g - gripper))
+
+   (:action move
+       :parameters  (?from ?to - room)
+       :precondition (or (at-robby ?from) (DUMMY-FLAG))
+       :effect (and  (at-robby ?to)
+		     (not (at-robby ?from))))
+
+
+
+   (:action pick
+       :parameters (?obj - ball ?room - room ?gripper - gripper)
+       :precondition  (and  (at ?obj ?room) (at-robby ?room) (or (free ?gripper) (DUMMY-FLAG)))
+       :effect (and (carry ?obj ?gripper)
+		    (not (at ?obj ?room)) 
+		    (not (free ?gripper))))
+
+
+   (:action drop
+       :parameters  (?obj - ball ?room - room ?gripper - gripper)
+       :precondition  (and  (carry ?obj ?gripper) (or (at-robby ?room) (DUMMY-FLAG)))
+       :effect (and (at ?obj ?room)
+		    (free ?gripper)
+		    (not (carry ?obj ?gripper)))))
+
+
+

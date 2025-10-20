@@ -1,0 +1,146 @@
+2025-08-26 09:10:10 [INFO] root: Logging init complete
+2025-08-26 09:10:10 [INFO] src.cli: 
+2025-08-26 09:10:10 [INFO] src.cli: 
+2025-08-26 09:10:10 [INFO] src.cli: 
+2025-08-26 09:10:10 [INFO] root: Running planner measurement...
+2025-08-26 09:10:10 [INFO] src.measure_planner_energy: Initializing planner measurement for planner dalai_agl in domain thoughtful-ORG
+2025-08-26 09:10:10 [INFO] src.util.planner_path_resolver: Found 10 problem files for domain thoughtful-ORG
+2025-08-26 09:10:10 [INFO] src.measure_planner_energy: Resolved paths for planner 'dalai_agl' and domain 'thoughtful-ORG'
+2025-08-26 09:10:10 [INFO] root: Container /home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../planner/dalai_agl/dalai_agl.sif already exists.
+2025-08-26 09:10:10 [INFO] root: Using existing container /home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../planner/dalai_agl/dalai_agl.sif.
+2025-08-26 09:10:10 [INFO] src.measure_planner_energy: Preparing to run planner on problem 'problem01.pddl'
+2025-08-26 09:10:10 [INFO] src.measure_planner_energy: Cleaning Apptainer cache to avoid layer caching...
+2025-08-26 09:10:10 [INFO] root: Waiting for system to be idle (CPU usage < 2.0%)...
+2025-08-26 09:10:15 [INFO] root: System is idle. CPU: 0.40%, RAM used: 1.72 GB, available: 13.07 GB (15.20%). Continuing...
+2025-08-26 09:10:15 [INFO] src.measure_planner_energy: Running planner command: ['/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../planner/dalai_agl/dalai_agl.sif', '/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../domain/thoughtful-ORG/domain.pddl', '/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../domain/thoughtful-ORG/problem01.pddl', 'plan/plan_problem01.pddl_thoughtful-ORG_dalai_agl.txt']
+2025-08-26 09:10:17 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem01.pddl Elapsed time: 1.88 seconds
+2025-08-26 09:10:18 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem01.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:10:20 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem01.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:10:22 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem01.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:10:23 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem01.pddl Elapsed time: 1.77 seconds
+2025-08-26 09:10:25 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem01.pddl Elapsed time: 1.87 seconds
+2025-08-26 09:10:27 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem01.pddl Elapsed time: 1.77 seconds
+2025-08-26 09:10:29 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem01.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:10:31 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem01.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:10:32 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem01.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:10:34 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem01.pddl Elapsed time: 1.77 seconds
+2025-08-26 09:10:36 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem01.pddl Elapsed time: 1.77 seconds
+2025-08-26 09:10:38 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem01.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:10:39 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem01.pddl Elapsed time: 1.77 seconds
+2025-08-26 09:10:41 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem01.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:10:43 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem01.pddl Elapsed time: 1.77 seconds
+2025-08-26 09:10:44 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem01.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:10:46 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem01.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:10:48 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem01.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:10:50 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem01.pddl Elapsed time: 1.77 seconds
+2025-08-26 09:10:51 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem01.pddl Elapsed time: 1.77 seconds
+2025-08-26 09:10:53 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem01.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:10:55 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem01.pddl Elapsed time: 1.77 seconds
+2025-08-26 09:10:57 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem01.pddl Elapsed time: 1.77 seconds
+2025-08-26 09:10:58 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem01.pddl Elapsed time: 1.77 seconds
+2025-08-26 09:11:00 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem01.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:11:02 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem01.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:11:04 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem01.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:11:05 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem01.pddl Elapsed time: 1.77 seconds
+2025-08-26 09:11:07 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem01.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:11:07 [INFO] root: Waiting for system to be idle (CPU usage < 2.0%)...
+2025-08-26 09:11:12 [INFO] root: System is idle. CPU: 0.30%, RAM used: 1.84 GB, available: 12.97 GB (15.80%). Continuing...
+2025-08-26 09:11:12 [INFO] src.measure_planner_energy: Measurement for problem problem01.pddl completed and saved
+2025-08-26 09:11:12 [INFO] src.measure_planner_energy: Preparing to run planner on problem 'problem03.pddl'
+2025-08-26 09:11:12 [INFO] src.measure_planner_energy: Cleaning Apptainer cache to avoid layer caching...
+2025-08-26 09:11:12 [INFO] root: Waiting for system to be idle (CPU usage < 2.0%)...
+2025-08-26 09:11:17 [INFO] root: System is idle. CPU: 0.20%, RAM used: 1.82 GB, available: 12.99 GB (15.70%). Continuing...
+2025-08-26 09:11:17 [INFO] src.measure_planner_energy: Running planner command: ['/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../planner/dalai_agl/dalai_agl.sif', '/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../domain/thoughtful-ORG/domain.pddl', '/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../domain/thoughtful-ORG/problem03.pddl', 'plan/plan_problem03.pddl_thoughtful-ORG_dalai_agl.txt']
+2025-08-26 09:11:19 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem03.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:11:21 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem03.pddl Elapsed time: 1.77 seconds
+2025-08-26 09:11:22 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem03.pddl Elapsed time: 1.77 seconds
+2025-08-26 09:11:24 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem03.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:11:26 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem03.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:11:28 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem03.pddl Elapsed time: 1.77 seconds
+2025-08-26 09:11:29 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem03.pddl Elapsed time: 1.77 seconds
+2025-08-26 09:11:31 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem03.pddl Elapsed time: 1.77 seconds
+2025-08-26 09:11:33 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem03.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:11:35 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem03.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:11:36 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem03.pddl Elapsed time: 1.77 seconds
+2025-08-26 09:11:38 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem03.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:11:40 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem03.pddl Elapsed time: 1.77 seconds
+2025-08-26 09:11:42 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem03.pddl Elapsed time: 1.77 seconds
+2025-08-26 09:11:43 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem03.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:11:45 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem03.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:11:47 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem03.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:11:48 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem03.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:11:50 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem03.pddl Elapsed time: 1.77 seconds
+2025-08-26 09:11:52 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem03.pddl Elapsed time: 1.77 seconds
+2025-08-26 09:11:54 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem03.pddl Elapsed time: 1.77 seconds
+2025-08-26 09:11:56 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem03.pddl Elapsed time: 1.77 seconds
+2025-08-26 09:11:57 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem03.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:11:59 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem03.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:12:01 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem03.pddl Elapsed time: 1.77 seconds
+2025-08-26 09:12:03 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem03.pddl Elapsed time: 1.77 seconds
+2025-08-26 09:12:04 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem03.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:12:06 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem03.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:12:08 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem03.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:12:09 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem03.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:12:09 [INFO] root: Waiting for system to be idle (CPU usage < 2.0%)...
+2025-08-26 09:12:14 [INFO] root: System is idle. CPU: 0.30%, RAM used: 1.86 GB, available: 12.95 GB (16.00%). Continuing...
+2025-08-26 09:12:14 [INFO] src.measure_planner_energy: Measurement for problem problem03.pddl completed and saved
+2025-08-26 09:12:14 [INFO] src.measure_planner_energy: Preparing to run planner on problem 'problem05.pddl'
+2025-08-26 09:12:14 [INFO] src.measure_planner_energy: Cleaning Apptainer cache to avoid layer caching...
+2025-08-26 09:12:14 [INFO] root: Waiting for system to be idle (CPU usage < 2.0%)...
+2025-08-26 09:12:19 [INFO] root: System is idle. CPU: 0.30%, RAM used: 1.80 GB, available: 13.01 GB (15.60%). Continuing...
+2025-08-26 09:12:19 [INFO] src.measure_planner_energy: Running planner command: ['/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../planner/dalai_agl/dalai_agl.sif', '/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../domain/thoughtful-ORG/domain.pddl', '/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../domain/thoughtful-ORG/problem05.pddl', 'plan/plan_problem05.pddl_thoughtful-ORG_dalai_agl.txt']
+2025-08-26 09:12:21 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem05.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:12:23 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem05.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:12:25 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem05.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:12:26 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem05.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:12:28 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem05.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:12:30 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem05.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:12:31 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem05.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:12:33 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem05.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:12:35 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem05.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:12:37 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem05.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:12:38 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem05.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:12:40 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem05.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:12:42 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem05.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:12:44 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem05.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:12:45 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem05.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:12:47 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem05.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:12:49 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem05.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:12:50 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem05.pddl Elapsed time: 1.77 seconds
+2025-08-26 09:12:52 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem05.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:12:54 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem05.pddl Elapsed time: 1.77 seconds
+2025-08-26 09:12:56 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem05.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:12:57 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem05.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:12:59 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem05.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:13:01 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem05.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:13:03 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem05.pddl Elapsed time: 1.77 seconds
+2025-08-26 09:13:04 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem05.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:13:06 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem05.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:13:08 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem05.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:13:09 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem05.pddl Elapsed time: 1.72 seconds
+2025-08-26 09:13:11 [INFO] src.measure_planner_energy: Planner completed successfully for problem problem05.pddl Elapsed time: 1.77 seconds
+2025-08-26 09:13:11 [INFO] root: Waiting for system to be idle (CPU usage < 2.0%)...
+2025-08-26 09:13:16 [INFO] root: System is idle. CPU: 0.30%, RAM used: 1.82 GB, available: 12.99 GB (15.70%). Continuing...
+2025-08-26 09:13:16 [INFO] src.measure_planner_energy: Measurement for problem problem05.pddl completed and saved
+2025-08-26 09:13:16 [INFO] src.measure_planner_energy: Preparing to run planner on problem 'problem07.pddl'
+2025-08-26 09:13:16 [INFO] src.measure_planner_energy: Cleaning Apptainer cache to avoid layer caching...
+2025-08-26 09:13:16 [INFO] root: Waiting for system to be idle (CPU usage < 2.0%)...
+2025-08-26 09:13:21 [INFO] root: System is idle. CPU: 0.40%, RAM used: 1.79 GB, available: 13.02 GB (15.50%). Continuing...
+2025-08-26 09:13:21 [INFO] src.measure_planner_energy: Running planner command: ['/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../planner/dalai_agl/dalai_agl.sif', '/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../domain/thoughtful-ORG/domain.pddl', '/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../domain/thoughtful-ORG/problem07.pddl', 'plan/plan_problem07.pddl_thoughtful-ORG_dalai_agl.txt']
+2025-08-26 09:18:21 [WARNING] src.measure_planner_energy: Planner execution terminates on problem07.pddl without solution: Command '['/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../planner/dalai_agl/dalai_agl.sif', '/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../domain/thoughtful-ORG/domain.pddl', '/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../domain/thoughtful-ORG/problem07.pddl', 'plan/plan_problem07.pddl_thoughtful-ORG_dalai_agl.txt']' timed out after 299.99998858800006 seconds. Elapsed time: 300.00 seconds
+2025-08-26 09:23:21 [WARNING] src.measure_planner_energy: Planner execution terminates on problem07.pddl without solution: Command '['/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../planner/dalai_agl/dalai_agl.sif', '/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../domain/thoughtful-ORG/domain.pddl', '/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../domain/thoughtful-ORG/problem07.pddl', 'plan/plan_problem07.pddl_thoughtful-ORG_dalai_agl.txt']' timed out after 299.999992097 seconds. Elapsed time: 300.00 seconds
+2025-08-26 09:28:21 [WARNING] src.measure_planner_energy: Planner execution terminates on problem07.pddl without solution: Command '['/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../planner/dalai_agl/dalai_agl.sif', '/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../domain/thoughtful-ORG/domain.pddl', '/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../domain/thoughtful-ORG/problem07.pddl', 'plan/plan_problem07.pddl_thoughtful-ORG_dalai_agl.txt']' timed out after 299.9999911250002 seconds. Elapsed time: 300.02 seconds
+2025-08-26 09:33:22 [WARNING] src.measure_planner_energy: Planner execution terminates on problem07.pddl without solution: Command '['/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../planner/dalai_agl/dalai_agl.sif', '/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../domain/thoughtful-ORG/domain.pddl', '/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../domain/thoughtful-ORG/problem07.pddl', 'plan/plan_problem07.pddl_thoughtful-ORG_dalai_agl.txt']' timed out after 299.998564345 seconds. Elapsed time: 300.52 seconds
+2025-08-26 09:38:37 [WARNING] src.measure_planner_energy: Planner execution terminates on problem07.pddl without solution: Command '['/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../planner/dalai_agl/dalai_agl.sif', '/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../domain/thoughtful-ORG/domain.pddl', '/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../domain/thoughtful-ORG/problem07.pddl', 'plan/plan_problem07.pddl_thoughtful-ORG_dalai_agl.txt']' timed out after 299.99136675399996 seconds. Elapsed time: 315.08 seconds
+2025-08-26 09:43:41 [WARNING] src.measure_planner_energy: Planner execution terminates on problem07.pddl without solution: Command '['/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../planner/dalai_agl/dalai_agl.sif', '/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../domain/thoughtful-ORG/domain.pddl', '/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../domain/thoughtful-ORG/problem07.pddl', 'plan/plan_problem07.pddl_thoughtful-ORG_dalai_agl.txt']' timed out after 299.70550501499974 seconds. Elapsed time: 301.22 seconds
+2025-08-26 09:48:41 [WARNING] src.measure_planner_energy: Planner execution terminates on problem07.pddl without solution: Command '['/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../planner/dalai_agl/dalai_agl.sif', '/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../domain/thoughtful-ORG/domain.pddl', '/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../domain/thoughtful-ORG/problem07.pddl', 'plan/plan_problem07.pddl_thoughtful-ORG_dalai_agl.txt']' timed out after 299.99998649200006 seconds. Elapsed time: 300.00 seconds
+2025-08-26 09:53:50 [WARNING] src.measure_planner_energy: Planner execution terminates on problem07.pddl without solution: Command '['/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../planner/dalai_agl/dalai_agl.sif', '/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../domain/thoughtful-ORG/domain.pddl', '/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../domain/thoughtful-ORG/problem07.pddl', 'plan/plan_problem07.pddl_thoughtful-ORG_dalai_agl.txt']' timed out after 299.99998335600003 seconds. Elapsed time: 308.58 seconds
+2025-08-26 09:58:57 [WARNING] src.measure_planner_energy: Planner execution terminates on problem07.pddl without solution: Command '['/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../planner/dalai_agl/dalai_agl.sif', '/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../domain/thoughtful-ORG/domain.pddl', '/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../domain/thoughtful-ORG/problem07.pddl', 'plan/plan_problem07.pddl_thoughtful-ORG_dalai_agl.txt']' timed out after 299.93776156399963 seconds. Elapsed time: 305.37 seconds
+2025-08-26 10:04:40 [WARNING] src.measure_planner_energy: Planner execution terminates on problem07.pddl without solution: Command '['/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../planner/dalai_agl/dalai_agl.sif', '/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../domain/thoughtful-ORG/domain.pddl', '/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../domain/thoughtful-ORG/problem07.pddl', 'plan/plan_problem07.pddl_thoughtful-ORG_dalai_agl.txt']' timed out after 297.5626745459999 seconds. Elapsed time: 322.78 seconds
+2025-08-26 10:09:46 [WARNING] src.measure_planner_energy: Planner execution terminates on problem07.pddl without solution: Command '['/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../planner/dalai_agl/dalai_agl.sif', '/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../domain/thoughtful-ORG/domain.pddl', '/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../domain/thoughtful-ORG/problem07.pddl', 'plan/plan_problem07.pddl_thoughtful-ORG_dalai_agl.txt']' timed out after 298.3997239790001 seconds. Elapsed time: 303.79 seconds
+2025-08-26 10:14:57 [WARNING] src.measure_planner_energy: Planner execution terminates on problem07.pddl without solution: Command '['/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../planner/dalai_agl/dalai_agl.sif', '/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../domain/thoughtful-ORG/domain.pddl', '/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../domain/thoughtful-ORG/problem07.pddl', 'plan/plan_problem07.pddl_thoughtful-ORG_dalai_agl.txt']' timed out after 299.9999835379999 seconds. Elapsed time: 311.10 seconds
+2025-08-26 10:20:03 [WARNING] src.measure_planner_energy: Planner execution terminates on problem07.pddl without solution: Command '['/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../planner/dalai_agl/dalai_agl.sif', '/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../domain/thoughtful-ORG/domain.pddl', '/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../domain/thoughtful-ORG/problem07.pddl', 'plan/plan_problem07.pddl_thoughtful-ORG_dalai_agl.txt']' timed out after 299.9284876649999 seconds. Elapsed time: 305.23 seconds
+2025-08-26 10:25:13 [WARNING] src.measure_planner_energy: Planner execution terminates on problem07.pddl without solution: Command '['/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../planner/dalai_agl/dalai_agl.sif', '/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../domain/thoughtful-ORG/domain.pddl', '/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../domain/thoughtful-ORG/problem07.pddl', 'plan/plan_problem07.pddl_thoughtful-ORG_dalai_agl.txt']' timed out after 299.88590757699967 seconds. Elapsed time: 308.27 seconds
+2025-08-26 10:30:26 [WARNING] src.measure_planner_energy: Planner execution terminates on problem07.pddl without solution: Command '['/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../planner/dalai_agl/dalai_agl.sif', '/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../domain/thoughtful-ORG/domain.pddl', '/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../domain/thoughtful-ORG/problem07.pddl', 'plan/plan_problem07.pddl_thoughtful-ORG_dalai_agl.txt']' timed out after 299.7063725449998 seconds. Elapsed time: 301.79 seconds
+2025-08-26 10:35:30 [WARNING] src.measure_planner_energy: Planner execution terminates on problem07.pddl without solution: Command '['/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../planner/dalai_agl/dalai_agl.sif', '/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../domain/thoughtful-ORG/domain.pddl', '/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../domain/thoughtful-ORG/problem07.pddl', 'plan/plan_problem07.pddl_thoughtful-ORG_dalai_agl.txt']' timed out after 299.9999843529995 seconds. Elapsed time: 303.54 seconds
+2025-08-26 10:40:34 [WARNING] src.measure_planner_energy: Planner execution terminates on problem07.pddl without solution: Command '['/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../planner/dalai_agl/dalai_agl.sif', '/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../domain/thoughtful-ORG/domain.pddl', '/home/sero/Documents/GitHub/Bachelorarbeit-Softwaretechnik/code/src/../domain/thoughtful-ORG/problem07.pddl', 'plan/plan_problem07.pddl_thoughtful-ORG_dalai_agl.txt']' timed out after 299.9872643460003 seconds. Elapsed time: 303.91 seconds

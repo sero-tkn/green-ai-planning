@@ -1,0 +1,5 @@
+{
+    "cpu_idle_threshold": 2.0,
+    "check_interval_seconds": 5,
+    "max_wait_seconds": 60
+}
