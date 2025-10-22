@@ -1,7 +1,7 @@
 #!/bin/bash
 
 PLANNER_NAME="cerberus_agl"     
-DURATION=301                     
+DURATION=300
 RUNS=30                          
 
 # List of all variants

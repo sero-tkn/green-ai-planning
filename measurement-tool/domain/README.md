@@ -3,18 +3,20 @@
 # Domain Directory
 
 This directory contains the PDDL domain files used in conjunction with the Energy Measurement Framework for Classical
-Planners.
+Planners. In the accompanying paper, the variant prefix categories are denoted as **SSC-**, **MRC-** and **TDC-**.
+Within this repository, however, the corresponding legacy prefixes **SV-**, **MI-**, and **SC-** remain in use.
 
-## Domain Model Modifications
+To avoid confusion, the mapping between paper notation and repository notation is as follows:
 
-This file documents all domain model modifications used in this project.
-The modifications are grouped into three categories:
+- `SV-` → `SSC-` (Syntactic Structure Choices)
+- `MI-` → `MRC-` (Modeling Redundancy Choices)
+- `SC-` → `TDC-` (Task Design Choices)
+- `MI-RPR2` → `MI-RPR`
+- `MI-REF2` → `MI-REF`
 
-- **Syntactic Variants** (`SV-XXX`)
-- **Modeling Inefficiencies** (`MI-XXX`)
-- **Solvability Constraints** (`SC-XXX`)
-
-The original, unmodified domain models are referred to as `ORG`.
+Please note that this is purely a naming difference. The semantics, configuration logic, and experimental meaning of the
+variants remain fully aligned with the definitions provided in the paper. The original, unmodified domain models are
+referred to as `ORG`.
 
 ## Syntactic Variants (`SV-XXX`)
 
@@ -30,12 +32,10 @@ These modifications alter the **order of elements** within PDDL domain files whi
 | SV-OPA1/2 | Sort operators by number of parameters (descending/ascending)            |
 | SV-ORA1/2 | Sort operators by effect/precondition ratio (descending/ascending)       |
 | SV-OAN1/2 | Sort operators alphabetically by name (descending/ascending)             |
-| SV-PRR    | Reverse the order of preconditions                                       |
 | SV-PRA1/2 | Sort preconditions alphabetically (descending/ascending)                 |
-| SV-EFR    | Reverse the order of effect literals                                     |
 | SV-EFA1/2 | Sort effect literals alphabetically (descending/ascending)               |
 
-**Total: 22 variants**
+**Total: 20 variants**
 
 ## Modeling Inefficiencies (`MI-XXX`)
 
@@ -48,12 +48,10 @@ These modifications introduce **redundant** into the domain or problem files wit
 | MI-RPA  | Increase predicate arity by adding dummy parameters                 |
 | MI-ROP  | Insert inapplicable dummy operator with unsatisfiable preconditions |
 | MI-ROA  | Increase operator arity by adding unused dummy parameters           |
-| MI-RPR1 | Add duplicated preconditions conjunctively                          |
 | MI-RPR2 | Add dummy predicates disjunctively to preconditions                 |
-| MI-REF1 | Duplicate effect literals with negated and non-negated copies       |
 | MI-REF2 | Add dummy predicates with negated and non-negated effects           |
 
-**Total: 9 variants**
+**Total: 7 variants**
 
 ## Solvability Constraints (`SC-XXX`)
 
@@ -68,10 +66,5 @@ creating dead-end states.
 | SC-COP | Compose a new operator that removes goal-relevant effects       |
 
 **Total: 4 variants**
-
-## Summary
-
-- **Total variants:** 35
-- **Applied per domain:** 6 domains × 35 variants = **210 modified domains**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

@@ -6,12 +6,18 @@ import matplotlib
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
 
+matplotlib.rcParams.update({
+    "figure.dpi": 1200,
+    "savefig.dpi": 1200,
+    "pdf.fonttype": 42,
+})
+
 matplotlib.use("TkAgg")
 
-planner_name = "cerberus_agl"
+planner_name = "dalai_agl"
 domain_name = "ricochet-robots"
-modeling_aspect = "SC"
-add_legend = False
+modeling_aspect = "TDC"
+add_legend = True
 mean_color = "tab:blue"
 median_color = "tab:orange"
 std_color = "tab:green"
@@ -87,7 +93,6 @@ bp = ax.boxplot([data[v]["energy"] for v in variants],
                 showfliers=True,
                 medianprops=dict(color=median_color, linewidth=2),
                 flierprops=dict(marker="o", markersize=8, alpha=0.7))
-
 
 ax.scatter(x, means_energy, marker="D", s=40, color=mean_color, zorder=3, label="Mean (energy)")
 ax.errorbar(x, means_energy, yerr=stds_energy, fmt="none", elinewidth=1.5, capsize=6,

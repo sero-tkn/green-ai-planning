@@ -23,6 +23,30 @@ All recorded results are stored under `measurement-data/`. For each planner–do
 is created that contains the raw measurement logs, the generated plans, and the corresponding execution logs.
 The `analysis-scripts/` directory includes Python scripts for aggregating and visualizing the collected data, while the
 resulting plots are placed in `analysis-figures/`. Finally, the `instance-generators/` directory contains helper scripts
-that were used to generate benchmark problem instances for selected domains.
+that were used to provide randomly sampled parameter values to the official instance generators of selected domains.
+
+## Notes
+
+In the accompanying paper, the variant prefix categories are denoted as **SSC-**, **MRC-** and **TDC-**. Within this
+repository, however, the corresponding legacy prefixes **SV-**, **MI-**, and **SC-** remain in use.
+
+To avoid confusion, the mapping between paper notation and repository notation is as follows:
+
+- `SV-` → `SSC-` (Syntactic Structure Choices)
+- `MI-` → `MRC-` (Modeling Redundancy Choices)
+- `SC-` → `TDC-` (Task Design Choices)
+- `MI-RPR2` → `MI-RPR`
+- `MI-REF2` → `MI-REF`
+
+Please note that this is purely a naming difference. The semantics, configuration logic, and experimental meaning of the
+variants remain fully aligned with the definitions provided in the paper.
+
+## Reproducing the Experiment
+
+If you want to reproduce the experiment exactly as described in the paper, please note that the full execution is
+orchestrated via the script `run_measurement.sh`, which is located in `measurement-tool/`.
+This script automates the complete measurement campaign, running the selected planner across all domain variants with
+the correct number of repetitions and timeouts. It uses the same configuration that was applied to generate the dataset
+stored in `measurement-data/`.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
