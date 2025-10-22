@@ -45,8 +45,8 @@ variants remain fully aligned with the definitions provided in the paper.
 
 If you want to reproduce the experiment exactly as described in the paper, please note that the full execution is
 orchestrated via the script `run_measurement.sh`, which is located in `measurement-tool/`.
-This script automates the complete measurement campaign, running the selected planner across all domain variants with
-the correct number of repetitions and timeouts. It uses the same configuration that was applied to generate the dataset
-stored in `measurement-data/`.
+This script automates the complete measurement campaign, running the selected planner–domain pair across all domain
+variants with the correct number of repetitions and timeouts. It uses the same configuration that was applied to
+generate the dataset stored in `measurement-data/`.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
