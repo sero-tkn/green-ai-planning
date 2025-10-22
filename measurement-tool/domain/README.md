@@ -18,9 +18,7 @@ Please note that this is purely a naming difference. The semantics, configuratio
 variants remain fully aligned with the definitions provided in the paper. The original, unmodified domain models are
 referred to as `ORG`.
 
-## Syntactic Variants (`SV-XXX`)
-
-These modifications alter the **order of elements** within PDDL domain files while preserving semantics.
+## Syntactic Structure Choices
 
 | Domain    | Description                                                              |
 |-----------|--------------------------------------------------------------------------|
@@ -37,9 +35,7 @@ These modifications alter the **order of elements** within PDDL domain files whi
 
 **Total: 20 variants**
 
-## Modeling Inefficiencies (`MI-XXX`)
-
-These modifications introduce **redundant** into the domain or problem files without altering solvability.
+## Modeling Redundancy Choices
 
 | Domain  | Description                                                         |
 |---------|---------------------------------------------------------------------|
@@ -53,10 +49,7 @@ These modifications introduce **redundant** into the domain or problem files wit
 
 **Total: 7 variants**
 
-## Solvability Constraints (`SC-XXX`)
-
-These modifications deliberately introduce **semantic inconsistencies** that lead to unsolvable planning tasks by
-creating dead-end states.
+## Task Design Choices
 
 | Domain | Description                                                     |
 |--------|-----------------------------------------------------------------|
